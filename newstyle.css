@@ -1,0 +1,136 @@
+body {
+        background-image: url("bgimage2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      
+
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+
+
+
+
+.nav{
+    background-color: rgb(22, 3, 52);
+    height:20%;
+}
+
+
+.gamecontainer{
+    
+    display: flex;
+    
+}
+
+.box{
+    height: 10vw;
+    width:10vw;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6vh;
+}
+
+.box:hover{
+    background-color: rgb(231, 211, 251);
+}
+
+.container{
+    margin-top: 14vh;
+    margin-left: 20%;
+   
+    height: 30vw;
+    width:30vh;
+    
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: repeat(3, 10vw) ;
+    grid-template-rows: repeat(3, 10vw) ;
+    
+}
+
+.gameinfo{
+    display:inline-block;
+    margin-left: 10%;
+    margin-top: 12%;
+    
+    height: 65vh;
+    width: 30vw;
+}
+
+/* img{
+    width:65%;
+    height:80%;
+} */
+
+span{
+    font-family: "Poppins", sans-serif;
+    font-size: 220%;
+    margin-left: 18%;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: rgb(156, 5, 167);
+    margin-left: 14%;
+    height: 13%;
+    width:40%;
+    border:3px solid black;
+    color:azure;
+    font-family: "Poppins", sans-serif;
+    font-size: 130%;
+}
+
+.musicbtn{
+    background-color: rgb(81, 9, 198);
+    margin-left: 1%;
+    height: 50px;
+    width:10%;
+    border:3px solid black;
+    color:azure;
+    font-family: "Poppins", sans-serif;
+    font-size: 100%;
+}
+
+#gamename{
+    font-family: "Poppins", sans-serif;
+    font-size: 150%;
+}
+
+.imgbox img{
+    width:0%;
+    height: 80%;
+    transition: width 0.5s ease-out;
+}
+
+
+.bt{
+    border-top: 0px;
+}
+.bl{
+    border-left: 0px;
+}
+.br{
+    border-right: 0px;
+}
+.bb{
+    border-bottom: 0px;
+}
+
+ul{
+    color: beige;
+}
+
+@media screen and (max-width:950px){
+    
+
+    .gamecontainer{
+        flex-wrap: wrap;
+    }
+}
